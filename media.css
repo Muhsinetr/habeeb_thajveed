@@ -50,11 +50,11 @@
     .part1{
         width: auto;
         height: auto;
-        margin-bottom: -100px;
     }
     .part2{
         width: auto;
         height: auto;
+        justify-content: start;
     }
     .part1 img{
         width: 250px;
@@ -73,11 +73,11 @@
         .part1{
             width: auto;
             height: auto;
-            margin-bottom: -100px;
         }
         .part2{
             width: auto;
             height: auto;
+            justify-content: start;
         }
         .part1 img{
             width: 250px;
