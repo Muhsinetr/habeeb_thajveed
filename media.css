@@ -50,6 +50,7 @@
     .part1{
         width: auto;
         height: auto;
+        margin-bottom: -100px;
     }
     .part2{
         width: auto;
@@ -72,6 +73,7 @@
         .part1{
             width: auto;
             height: auto;
+            margin-bottom: -100px;
         }
         .part2{
             width: auto;
