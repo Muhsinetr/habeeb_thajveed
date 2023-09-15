@@ -125,5 +125,3 @@ var myAudio = document.getElementById("myAudio");
 myAudio.addEventListener('ended', () => {
     myGif.setAttribute("src", "myGif/normal.gif");
 });
-
-document.getElementById("test").innerHTML = document.body.offsetWidth;
