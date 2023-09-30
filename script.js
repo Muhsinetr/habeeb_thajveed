@@ -15,5 +15,17 @@ function press(x) {
 }
     
 myAudio.addEventListener('ended', () => {
-    myGif.setAttribute("src", "Files/gifimage.png");
+    myGif.setAttribute("src", "Files/resized.jpg");
 });
+
+function menu(){
+    var list = document.getElementById("list");
+    var menu_bar = document.getElementById("menu_icon");
+    if(list.style.display == 'none'){
+    list.style.display = 'block';
+    menu_bar.style.backgroundImage = "url('Files/cross.png')";
+    }else{
+        list.style.display = 'none';
+        menu_bar.style.backgroundImage = "url('Files/menu.png')";
+    }
+}

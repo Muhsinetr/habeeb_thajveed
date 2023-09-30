@@ -6,33 +6,35 @@
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <div class="background">
         <section>
-            <div class="gif">
-                <div class="gif_box">
-                <div class="menubar" >
-                    <div class="menu_bler"  >
-                        <div class="menu_items">
-                        <h1>Thajveed</h1>
-                        <a href="">اِدْغَام بِغُنَّة</a>
-                        <a href="">اِدْغَام بِغُنَّة</a>
-                        <a href="">اِدْغَام بِغُنَّة</a>
-                        <a href="">اِدْغَام بِغُنَّة</a>
-                        <a href="">اِدْغَام بِغُنَّة</a>
-                        </div>
-                    </div>
+            <div id="list" class="menu_bler" style="display: none;" >
+                <div class="menu_items">
+                <h1>Thajveed</h1>
+                <a href="">اِدْغَام بِغُنَّة</a>
+                <a href="">اِدْغَام بِغُنَّة</a>
+                <a href="">اِدْغَام بِغُنَّة</a>
+                <a href="">اِدْغَام بِغُنَّة</a>
+                <a href="">اِدْغَام بِغُنَّة</a>
                 </div>
-                
-                <img id="myGif" src="Files/gifimage.png" class="display">
+            </div>
+            <div class="gif">
+                <div  class="gif_box">
+                <div id="menu_icon" onclick="menu()" class="menubar" >
+                </div>  
+                <div class="center">
+                <img id="myGif" src="Files/resized.jpg" class="display_1">
+            </div>
             </div>
         </div>
             <div class="button">
-                <div class="btn_container" >
+                <div class="btn_container">
                 <div class="heading" ></div>
                 <div class="btns">
-                    <div onclick="press(1)"  class="latter">ج</div>
+                    <a onclick="press(1)"  class="latter">ج</a>
                     <a onclick="press(2)" class="latter">ث</a>
                     <a onclick="press(3)" class="latter">ت</a>
                     <a onclick="press(4)" class="latter">ب</a>
