@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Naskh+Arabic&family=Roboto&display=swap');
 
 
 *{
@@ -67,6 +67,9 @@ section{
     justify-content: center;
     align-items: center;
 }
+.menu_bler{
+    display: none;
+}
 .menu_items{
     height: 505px;
     width: 260px;
@@ -75,14 +78,12 @@ section{
     border: 3px solid rgba(255, 255, 255, 0.63);
     background: linear-gradient(160deg, #F4F4F4 3.47%, rgba(244, 244, 244, 0.00) 106.93%);
     backdrop-filter: blur(5.5px);
-    /* background-color: red; */
     overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    display: none;
 }
-.menubar:hover .menu_items {
+.menubar:hover .menu_bler{
     display: block;
 }
 .menu_items h1{
@@ -98,10 +99,10 @@ section{
     border-radius: 12px;
     background: inherit;
     /* filter: blur(5.5px); */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Naskh Arabic', serif;
     font-size: 24px;
     color: black;
-    padding: 10px 75px;
+    padding: 5px 60px;
     margin-bottom: 10px;
 }
 .menu_items a:hover{
@@ -133,7 +134,7 @@ section{
     flex-wrap: wrap;
 }
 
-.btns a {
+.latter{
     text-decoration: none;
     border-radius: 11px;
     border: 2px solid #FFF;
@@ -150,9 +151,9 @@ section{
     font-size: 20px;
     font-family:'Inter';
 }
-.btns a:hover{
+.latter:hover{
     background-color: #018a43;
 }
-.btns a:active{
+.latter:active{
     transform: scale(0.96);
 }
