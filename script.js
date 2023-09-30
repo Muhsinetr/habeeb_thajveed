@@ -1,5 +1,5 @@
 
-var harf = ["def","jeem","ssah","thah","bah","hamza","rah","zal","dal","krah","hah","lad","swad","sheen","seen","zah","fah","goin","ain","lah","twah","noon","meem","lam","kaf","qaf","yah","vav","hhah"];
+var harf = ["hamza","bah","thah","ssah","jeem","hah","krah","dal","zal","rah","zah","seen","sheen","swad","lad","twah","lah","ain","goin","fah","qaf","kaf","lam","meem","noon","hhah","vav","yah"]
 var myAudio = document.getElementById("myAudio");
 var myGif = document.getElementById("myGif");
 

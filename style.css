@@ -18,7 +18,7 @@ a{
 }
 .background{
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     background-color: #FFEAD0;
     background-image: url(Files/bc_img.png);
     background-size: 400px;
@@ -128,6 +128,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .latter{
