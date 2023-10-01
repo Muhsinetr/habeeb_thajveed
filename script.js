@@ -35,3 +35,15 @@ const audioElement = document.querySelector('#textAudio');
 audioElement.addEventListener('play', function() {
   this.timelineElement.style.color = 'red';
 });
+
+
+if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("sworker.js").then(registration=>{
+    console.log("Service worker registered")
+ }).catch(error=>{
+        console.log("Service worker error")
+        console.log(error)
+ })
+}else{
+    alert("Service worker not working")
+}

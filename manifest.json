@@ -3,14 +3,19 @@
     "name": "THAJVEED",
     "short_name": "THAJVEED",
     "description": "FOR EASY UNDERSTAND OF THAJVEED",
-    "start_url": "/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "theme_color": "#009578",
     "icons": [
       {
-        "src": "Files/resized.jpg",
-        "sizes": "192x192",
+        "src": "Files/resized65.png",
+        "sizes": "65x65",
+        "type": "image/png"
+      },
+      {
+        "src": "Files/icon450.png",
+        "sizes": "450x450",
         "type": "image/png"
       }
     ]
