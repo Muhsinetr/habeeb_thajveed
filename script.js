@@ -29,3 +29,9 @@ function menu(){
         menu_bar.style.backgroundImage = "url('Files/menu.png')";
     }
 }
+
+
+const audioElement = document.querySelector('#textAudio');
+audioElement.addEventListener('play', function() {
+  this.timelineElement.style.color = 'red';
+});

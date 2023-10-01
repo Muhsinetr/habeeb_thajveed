@@ -154,3 +154,43 @@ section{
 .latter:active{
     transform: scale(0.96);
 }
+
+/*/////////INSTAL BUTTON////////*/
+
+#install-button {
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+/* /////////////page Library//////////////////////// */
+
+.Text_container{
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Text_container h1{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: 100;
+}
+#textAudio{
+    width: 100%;
+}
+/* audio::-webkit-media-controls-timeline {
+    color: #ffffff;
+  } */

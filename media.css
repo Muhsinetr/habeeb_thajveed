@@ -20,10 +20,10 @@
 @media(max-width:650px){
     section{
         height: 95%;
-        width: 95%;
+        width: 90%;
         flex-direction: column;
         justify-content:flex-start;
-        background: linear-gradient(179deg, #FFF 33%, rgb(255 221 221) 95.36%);
+        background: linear-gradient(179deg, #FFF 33%, rgba(255, 221, 221, 0.00) 118.36%);
     }
     .button{
         width: auto;
@@ -85,6 +85,9 @@
     }
 }
 @media(max-width:350px){
+    section{
+        width: 95%;
+    }
     .latter{
         margin: 3.5px;
         width: 33px;
