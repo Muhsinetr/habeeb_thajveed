@@ -1,18 +1,20 @@
-
 {
-    "name": "Thajveed",
-    "short_name": "Thajveed",
-    "description": "A brief description of your website",
-    "start_url": ".",
+    "name":"thajveed",
+    "short_name": "thajveed",
+    "start_url":".",
+    "background_color": "white",
+    "theme_color": "#009578",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "icons": [
-      {
-        "src": "Files/resized65.png",
-        "sizes": "65x65",
-        "type": "image/png"
-      }
+    "icons":[
+        {
+            "src": "Files/gifimage150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "Files/gifimage450.png",
+            "sizes": "450x450",
+            "type": "image/png"
+        }
     ]
-  }
-  
+}
