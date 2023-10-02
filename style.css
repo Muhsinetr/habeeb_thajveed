@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Naskh+Arabic&family=Roboto&display=swap');
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -188,9 +186,13 @@ section{
     text-decoration: underline;
     font-weight: 100;
 }
+/* .Text_container p{ 
+    text-align: justify;
+} */
 #textAudio{
     width: 100%;
 }
+
 /* audio::-webkit-media-controls-timeline {
     color: #ffffff;
   } */

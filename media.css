@@ -4,7 +4,6 @@
         height: 475px;
         margin-top: 20px;
     }
-    
 }
 @media(max-width:800px){
     .display_1{
@@ -19,7 +18,7 @@
 }
 @media(max-width:650px){
     section{
-        height: 95%;
+        min-height: 95%;
         width: 90%;
         flex-direction: column;
         justify-content:flex-start;
@@ -71,6 +70,14 @@
         height: 94%;
         width: 60%;
     }
+    .Text_container p{
+        font-size: 14px;
+    }
+}
+@media(max-width:550px){
+    .Text_container p{
+        font-size: 13px;
+    }
 }
 @media(max-width:460px){
     .btns{
@@ -82,6 +89,9 @@
     }
     .menu_items a {
         padding: 5px 60px;
+    }
+    .Text_container p{
+        font-size: 11px;
     }
 }
 @media(max-width:350px){
