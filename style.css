@@ -4,6 +4,9 @@
     padding: 0px;
     /* border: 1px solid red; */
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
 }
@@ -60,6 +63,7 @@ section{
     background-repeat: no-repeat;
     cursor: pointer;
     position: absolute;
+    z-index: 2;
 }
 .button{
     width: 55%;
@@ -80,6 +84,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 .menu_items h1{
     font-family: 'Italiana', serif;
@@ -145,6 +150,7 @@ section{
     font-style: normal;
     font-size: 20px;
     font-family:'Inter';
+    cursor: pointer;
 }
 .latter:hover{
     background-color: #018a43;
@@ -152,23 +158,6 @@ section{
 .latter:active{
     transform: scale(0.96);
 }
-
-/*/////////INSTAL BUTTON////////*/
-
-#install-button {
-    display: none;
-    position: fixed;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
 
 /* /////////////page Library//////////////////////// */
 
@@ -193,6 +182,7 @@ section{
     width: 100%;
 }
 
-/* audio::-webkit-media-controls-timeline {
-    color: #ffffff;
-  } */
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
