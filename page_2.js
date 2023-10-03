@@ -16,15 +16,15 @@ var lobj = [
     }
 ];
 
-const querystring = window.location.search;
-const paramS = new URLSearchParams(querystring);
-const contents = paramS.get('Text');
+const getFromLink = window.location.search;
+const textFLink = new URLSearchParams(getFromLink);
+const nameFLink = textFLink.get('Text');
 
     var head = document.getElementById("heading");
     var texts = document.getElementById("text");
     var myAudio = document.getElementById("textAudio");
 
-    switch (contents) {
+    switch (nameFLink) {
         case "one":head.innerHTML = lobj[0].heding;
                    texts.innerHTML = lobj[0].Text;
                    myAudio.setAttribute("src", lobj[0].voice);
@@ -40,11 +40,3 @@ const contents = paramS.get('Text');
         default:
             break;
     }
-
-// if(contents=="one"){
-//     head.innerHTML = lobj[0].heding;
-//     texts.innerHTML = lobj[0].Text;
-// }else if(contents == "two"){
-//     head.innerHTML = lobj[1].heding;
-//     texts.innerHTML = lobj[1].Text;
-// }    
