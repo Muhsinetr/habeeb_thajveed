@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 html{
     scroll-behavior: smooth;
@@ -101,11 +101,15 @@ section{
     font-family: 'Noto Naskh Arabic', serif;
     font-size: 24px;
     color: black;
-    padding: 5px 70px;
     margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu_items a:hover{
-    border: 2px dotted black;
+    background: linear-gradient(#82f8bb8a,#66a36640);
 }
 .btn_container{
     width: 90%;
