@@ -101,9 +101,9 @@
         font-size: 11px;
     }
 }
-@media(max-width:350px){
+@media(max-width:360px){
     section{
-        width: 95%;
+        width: 90%;
     }
     .latter{
         margin: 3.5px;
