@@ -1,13 +1,11 @@
 @media(max-width:900px){
     .display_1{
-        width: 400px;
-        height: 475px;
+        height: 450px;
         margin-top: 20px;
     }
 }
 @media(max-width:800px){
     .display_1{
-        width: 350px;
         height: 425px;
         margin-top: 40px;
     }
@@ -37,12 +35,8 @@
         width: 100%;
     }
     .display_1{
-        /* width: 220px;
-        height: 250px; */
-
-        width: 75%;
-        height: 75vw;
-
+        height: 40dvh;
+        /* aspect-ratio: ; */
         margin-top: 30px;
         border-radius: 40px;
     }
@@ -68,7 +62,7 @@
         height: 25px;
     }
     .heading {
-        width: 95px;
+        width: 100px;
         height: 25px;
         margin-bottom: 10px;
     }
@@ -122,6 +116,10 @@
     .menu_items a {
         width: 150px;
         
+    } 
+}
+@media(max-width:300px){
+    .latter{
+        margin: 2.5px;
     }
-       
 }

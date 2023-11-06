@@ -49,8 +49,8 @@ section{
 }
 
 .display_1{
-    width: 425px;
-    height: 505px;
+    height: 500px;
+    aspect-ratio: .80;
     border: none;
     border-radius: 75px;
 }

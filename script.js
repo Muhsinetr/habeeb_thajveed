@@ -30,7 +30,6 @@ function menu(){
     }
 }
 
-
 if("serviceWorker" in navigator){
     navigator.serviceWorker.register("srworker.js").then(registration=>{
         console.log("Service worker registered")
@@ -42,8 +41,3 @@ if("serviceWorker" in navigator){
 }else{
     alert("Service worker not working")
 }
-
-
-
-
-
