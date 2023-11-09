@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Naskh+Arabic&family=Roboto&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 /*////////////FIrst page////////////*/
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.background{
+
+.background {
     width: 100%;
     height: 100dvh;
     background-color: #FFEAD0;
@@ -25,8 +29,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-section{
+}
+
+section {
     width: calc(570px * 1.8);
     height: 570px;
     border-radius: 29px;
@@ -36,25 +41,28 @@ section{
     justify-content: space-between;
     margin: 3px;
 }
-.gif{
+
+.gif {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.gif_box{
+
+.gif_box {
     width: 85%;
     height: 90%;
 }
 
-.display_1{
+.display_1 {
     height: 500px;
     aspect-ratio: .80;
     border: none;
     border-radius: 75px;
 }
-.menubar{
+
+.menubar {
     width: 30px;
     height: 30px;
     background-image: url(Files/menu.png);
@@ -64,14 +72,16 @@ section{
     position: absolute;
     z-index: 2;
 }
-.button{
+
+.button {
     width: 55%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu_items{
+
+.menu_items {
     height: 560px;
     width: 310px;
     position: absolute;
@@ -85,7 +95,8 @@ section{
     align-items: center;
     z-index: 1;
 }
-.menu_items h1{
+
+.menu_items h1 {
     font-family: 'Italiana', serif;
     font-size: 32px;
     font-style: normal;
@@ -94,7 +105,8 @@ section{
     margin-bottom: 15px;
     margin-top: 10px;
 }
-.menu_items a{
+
+.menu_items a {
     border-radius: 12px;
     background: inherit;
     font-family: 'Noto Naskh Arabic', serif;
@@ -107,10 +119,12 @@ section{
     justify-content: center;
     align-items: center;
 }
-.menu_items a:hover{
-    background: linear-gradient(#82f8bb8a,#66a36640);
+
+.menu_items a:hover {
+    background: linear-gradient(#82f8bb8a, #66a36640);
 }
-.btn_container{
+
+.btn_container {
     width: 90%;
     height: 90%;
     display: flex;
@@ -119,7 +133,8 @@ section{
     align-items: center;
     flex-direction: column;
 }
-.heading{
+
+.heading {
     width: 158px;
     height: 41px;
     background-image: url(Files/مَخَارِجُ\ الْحُرُوفِ.png);
@@ -127,7 +142,8 @@ section{
     background-repeat: no-repeat;
     margin-bottom: 15px
 }
-.btns{
+
+.btns {
     width: 340px;
     height: calc(100% - 105px);
     display: flex;
@@ -137,14 +153,14 @@ section{
     flex-direction: row-reverse;
 }
 
-.latter{
+.latter {
     text-decoration: none;
     border-radius: 11px;
     border: 2px solid #FFF;
     background: #00A651;
     box-shadow: 4px 5px 9px 0px rgba(0, 0, 0, 0.30), -4px -3px 8px 0px rgba(255, 255, 255, 0.57);
-    height: 48px;
     width: 48px;
+    aspect-ratio: 1;
     margin: 8px;
     display: flex;
     align-items: center;
@@ -152,19 +168,21 @@ section{
     color: white;
     font-style: normal;
     font-size: 20px;
-    font-family:'Inter';
+    font-family: 'Inter';
     cursor: pointer;
 }
-.latter:hover{
+
+.latter:hover {
     background-color: #018a43;
 }
-.latter:active{
+
+.latter:active {
     transform: scale(0.96);
 }
 
 /* /////////////page Library//////////////////////// */
 
-.Text_container{
+.Text_container {
     width: 85%;
     height: 85%;
     margin: auto;
@@ -173,19 +191,21 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-.Text_container h1{
+
+.Text_container h1 {
     font-size: 25px;
     text-decoration: underline;
     font-weight: 100;
 }
+
 /* .Text_container p{ 
     text-align: justify;
 } */
-#textAudio{
+#textAudio {
     width: 100%;
 }
 
 
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
-  }
+}
